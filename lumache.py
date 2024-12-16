@@ -1,8 +1,8 @@
 """
-Lumache - Python library for cooks and food lovers.
+Lumache - Python library for the FSS Fox Theme Changer V2 VSCode Extension.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 
 class InvalidKindError(Exception):
@@ -10,14 +10,14 @@ class InvalidKindError(Exception):
     pass
 
 
-def get_random_ingredients(kind=None):
+def get_random_kind(kind=None):
     """
-    Return a list of random ingredients as strings.
+    Return a list of random kinds of commands.
 
-    :param kind: Optional "kind" of ingredients.
+    :param kind: Optional "kind" of command.
     :type kind: list[str] or None
     :raise lumache.InvalidKindError: If the kind is invalid.
-    :return: The ingredients list.
+    :return: The commands list.
     :rtype: list[str]
     """
-    return ["shells", "gorgonzola", "parsley"]
+    return ["Change Theme", "placeholder - coming soon", "placeholder - coming soon"]
